@@ -1,0 +1,12 @@
+.messagesContainer{
+    height: 84vh;
+    padding: 0 7px 0 16px;
+}
+
+@media only screen and (max-width: 480px){
+    
+    .messagesContainer{
+        padding: 2px 0 4px 0;
+    }
+
+}

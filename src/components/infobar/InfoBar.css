@@ -1,0 +1,26 @@
+.infoBarContainer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffcb74;
+}
+
+.infoBarDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoBarDetails > span{
+    font-size: 1.6rem;
+    color: #4f8a8b;
+}
+
+.infoBarDetails > h3{
+    color: #ea907a;
+}
+
+a{
+    text-decoration: none;
+}

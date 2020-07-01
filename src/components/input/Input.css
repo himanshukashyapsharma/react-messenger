@@ -1,0 +1,33 @@
+form{
+    position: absolute;
+    bottom: 2px;
+}
+
+.inputContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input{
+    width: 85%;
+    height: 38px;
+    padding: 0 5px;
+    color: darkcyan;
+    border: 1px solid grey;
+    border-radius: 10px;
+    outline: none;
+}
+
+.inputButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 10%;
+    border: 1px solid darkcyan;
+    color: darkcyan;
+    border-radius: 10px;
+    height: 38px;
+    cursor: pointer;
+}
