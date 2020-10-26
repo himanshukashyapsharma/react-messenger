@@ -6,7 +6,7 @@ const InfoBar = ({room})=>{
     return (
         <div className="infoBarContainer">
             <div className="infoBarDetails">
-                <span>•&nbsp;</span>
+                <span>•</span>
                 <h3>{room}</h3>
             </div>
             <div className="infoBarCloseButton">

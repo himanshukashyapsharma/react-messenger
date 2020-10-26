@@ -16,13 +16,13 @@
 }
 
 .user > * {
-    background-color: #e5e8f1;
-    color: darkcyan;
+    background-color: var(--accentColor);
+    color: var(--primaryColor);
 }
 
 .other > *{
     background-color:#3f3d3d;
-    color: #f4f6ff;
+    color: var(--primaryColor);
 }
 
 .text-width{
@@ -35,7 +35,7 @@
   }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: var(--accentColor); 
   }
    
 ::-webkit-scrollbar-thumb {

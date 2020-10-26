@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ffcb74;
+    background-color: var(--secondaryColor);
 }
 
 .infoBarDetails{
@@ -14,13 +14,15 @@
 
 .infoBarDetails > span{
     font-size: 1.6rem;
-    color: #4f8a8b;
+    color: var(--primaryColor);
 }
 
 .infoBarDetails > h3{
-    color: #ea907a;
+    color: var(--primaryColor);
 }
 
 a{
     text-decoration: none;
+    /* color: var(--accentColor); */
+    color: #FEF7FF;
 }

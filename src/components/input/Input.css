@@ -13,20 +13,22 @@ form{
     width: 85%;
     height: 38px;
     padding: 0 5px;
-    color: darkcyan;
+    color: #3f3d3d;
+    font-weight: 600;
     border: 1px solid grey;
     border-radius: 10px;
     outline: none;
 }
 
 .inputButton{
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     width: 10%;
-    border: 1px solid darkcyan;
-    color: darkcyan;
+    border: 1px solid var(--secondaryColor);
+    color: var(--secondaryColor);
     border-radius: 10px;
     height: 38px;
     cursor: pointer;

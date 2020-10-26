@@ -1,5 +1,5 @@
 .container{
     height: 100vh;
     position: relative;
-    background-color: darkcyan;
+    background-color: var(--primaryColor);
 }
